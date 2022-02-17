@@ -926,7 +926,11 @@ footer{
     .video-preview .overlayinfo{
         width: 75%;
         top: 40%;
-        left: 75px;
+        left: 50px;
+    }
+
+    .list-boxes.boxes-4 > li{
+        width: 75%;
     }
 }
 
