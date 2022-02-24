@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Quicksand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-wrap: wrap;
+    font-family: 'Titillium Web', Almarai, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(90deg, #05D561, white);
+}
+
+.Landing img{
+    width: 500px
+}
+
+.intro{
+    padding: 120px 0 120px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    perspective: 1000px;
+    backface-visibility: hidden;
+}
+
+.intro h1{
+    font-weight: 900;
+}
+
+.intro p{
+    font-size: 21px;
+}
+
+.intro span{
+    font-weight: 800;
+}
+
+.htmlogo{
+    margin-top: 50px;
+}
+
+.htmlogo img{
+    width: 105px;
+}
+
+.bottom{
+    position: absolute;
+    background: #05D561;
+    right: 7%;
+    margin: 0 1em 1em 0;
+    width: 400px;
+    height: 150px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.landimg{
+    position: relative;
+}
+
+.landimg img{
+    box-shadow: 10px 8px 15px rgb(0 0 0 / 10%);
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.landimg img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+} 
+
+@media (min-width: 1200px){
+    .htmlogo{
+        bottom: 30%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .htmlogo{
+        bottom: 30%;
+    }
+}
+
+@media (max-width: 578px){
+    .htmlogo .row{
+        justify-content: space-evenly;
+    }
+
+    .intro{
+        padding: 120px 0 30px;
+        text-align: center;
+    }
+
+    .landimg img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 579px) and (max-width: 768px)
+{
+    .intro{
+        padding: 120px 0 30px;
+        text-align: center;
+    }
+
+    .htmlogo .row{
+        justify-content: space-evenly;
+    }
+
+    .landimg img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+
+    .intro{
+        padding: 100px 0 100px;
+    }
+
+    .intro p{
+        font-size: 18px;
+    }
+
+    .landimg img{
+        width: 100%;
+    }
+
+    .htmlogo img{
+        width: 80px;
+    }
+}
